@@ -1,5 +1,4 @@
-# Título del Proyecto
-MEJORES COCHES DE ALTA GAMA
+# MEJORES COCHES DE ALTA GAMA
 
 ## Descripción del proyecto
 Este proyecto es una página web diseñada con construida utilizando HTML y CSS, haciendo uso especialmente del modelo de diseño Flexbox para lograr una presentación atractiva y responsive.
