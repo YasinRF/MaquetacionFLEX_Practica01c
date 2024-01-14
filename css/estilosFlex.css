@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    background-color: #A62103;
+}
+
+#div1 {
+    text-align: center;
+    background-color: #A62103;
+    font-family: Dhurjati;
+    font-weight: bold;
+    font-size: 2.3vw;
+    color: #D9D8D7;
+}
+
+/*<======== NAV ========>*/
+
+nav {
+    top: 0;
+    position: sticky;
+    padding: 10px;
+    margin: 55px 20px 0px 20px;
+    height: 17vw;
+    font-family: Dhurjati;
+    float: left;
+    background-color: #152620;
+    color: #D9D8D7;
+    border-radius: 10px;
+}
+
+nav li {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 1.3vw;
+}
+
+nav li:hover{
+    text-decoration: underline #A62103;
+    transform: scale(1.1);
+}
+
+/*<======== MAIN ========>*/
+
+main {
+    background-color: #A62103;
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+    margin-top: 50px;
+}
+
+.arriba,
+.abajo   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #D9D8D7;
+}
+
+main div {
+    background-color: #152620;
+    border: 1px solid #D9D8D7;
+    padding: 1em;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main img {
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    color: #D9D8D7;
+    font-weight: bold;
+    background-color: #591202;
+    font-size: 1.2vw;
+}
+
+/*<======== FOOTER ========>*/
+
+footer {
+    background-color: #152620;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Dhurjati;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #D9D8D7;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #152620;
+}
+
+#redes {
+    display: flex;
+    align-items: center;
+    color: #D9D8D7;
+}
+
+#redes a {
+    margin-right: 10px;
+}
+
+#redes img {
+    width: 30px;
+    height: auto;
+}
