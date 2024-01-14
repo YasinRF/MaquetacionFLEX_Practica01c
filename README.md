@@ -27,4 +27,4 @@ Se utiliza [Git](https://git-scm.com/) para el control de versiones.
 Free license
 
 ## Recursos adicionales:
-[Mi github](https://github.com/YasinRF)
+[Mi GitHub](https://github.com/YasinRF)
